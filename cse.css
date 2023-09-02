@@ -1,0 +1,383 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+a{
+    color: white;
+}
+.nav-bar{
+    
+    height: 30px;
+    background-color: #043927;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-bar a{
+    font-weight: 100;
+    color: white;
+}
+.hero-section{
+    
+    height:200px;
+    background-color: rgba(4,57,39,0.5);
+    /* background-image: url("nsut.jpg");
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+}
+.logo-box{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.logo{
+    height: 79px;
+    width: 650px;
+    background-image: url("nsutlogo.png");
+
+}
+.g-20{
+    height: 80px;
+    width: 89px;
+    background-image: url("G20Whiteback.jpg");
+}
+.location-box{
+    
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    
+
+}
+
+  
+ 
+.fa-solid fa-location-dot{
+    margin-left: 100px;
+    height: 60px;
+}
+.geet-marky{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+marky{
+    width: 1000px;
+    height: 40px;
+    font-weight: bold;
+    /* font-size: larger; */
+    padding-left: 15px ;
+    padding-right: 15px ;
+    margin-top: 15px;
+
+}
+/* marquee{
+    font-size: 10px;
+    font-weight: 800;
+    color: #8ebf42;
+    font-family: sans-serif;
+    } */
+.music{
+    display: flex;
+    align-items: center;
+    width:40%;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(red, 0, 0, 0.4);
+    border-radius: 8px;
+}
+.menu-bar {
+    background-color: var(--color-black);
+    height: 80px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+  }
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  .menu-bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+    position: relative;
+  }
+  .menu-bar ul li a {
+    /* background-color: black; */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    /* color: var(--color-white); */
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .menu-bar ul li a:hover {
+    color: #043927;
+  }
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  /* dropdown menu style */
+  .dropdown-menu {
+    display: none;
+   
+  }
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:rgba(4,57,39,0.5);
+  }
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  .dropdown-menu-0 {
+    display: none;
+   
+  }
+  .menu-bar ul li:hover .dropdown-menu-0 {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:rgba(4,57,39,0.5);
+  }
+  .menu-bar ul li:hover .dropdown-menu-0 ul {
+    display: block;
+    margin: 10px;
+  }
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  .menu-bar ul li:hover .dropdown-menu-0 ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  .dropdown-menu-1 {
+    display: none;
+  }
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color:rgba(4,57,39,0.5);
+}
+.faculty{
+    height: 1100px;
+    background-image: url("ab.jpg");
+    background-size: cover;
+
+
+}
+
+.hero-section1 {
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 40px;
+  margin-left: 70px;
+  font-size: 50px;
+}
+.hero-section1 a:hover{
+  
+  color: #043927;
+}
+.box-1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box-2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box-3{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box button{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(173, 200, 191);
+  color: #043927;
+  font-size: larger;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 50px; */
+}
+.box button:hover{
+  background-color: black;
+  color: yellowgreen;
+  
+}
+
+.box button a{
+  color: #043927;
+}
+.box button a:hover{
+  background-color: black;
+  color: yellowgreen;
+}
+.box{
+  width: 300px;
+  height: 200px;
+  
+  padding: 100px;
+  height: 52px;
+  /* border: 2px solid black; */
+  border-radius: 15px;
+}
+
+
+.hero-section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+
+
+.Part10{
+  background-color: #043927;
+  color: white;
+  padding-top: 10px;
+}
+
+.subPart-10{
+  display: grid;
+  grid-template-columns: repeat(4,1fr)    ;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.sub-subPart-10{
+  padding: 30px;
+  
+}
+.sub-subPart-10 h4{
+  /* margin-top: 2em; */
+  margin-bottom: 1em;
+}
+.sub-subPart-10 a{
+  display: block;
+  margin: 10px;
+}
+.sub-subPart-10 hr{
+  border: dotted;
+
+  color:rgba(150, 249, 216, 0.5)
+}
+.sub-subPart-10 p{
+  margin-top: 1em;
+}
+.Links-sub-subPart-10{
+  padding-right: 5em  ;
+  border-right: dotted;
+}
+
+span{
+  color: #006FCE;
+}
+a:hover{
+  cursor: pointer;
+}
+.random{
+  background-color: #043927;
+  height: 20px;
+}
+.content{
+    height:300px;
+    display:flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+.comppic{
+    /* width: 45%; */
+    height:200px;
+    width: 200px;
+    background-color: black;
+    background-image: url("gen_info.jpg");
+    background-size: contain;
+    padding: 5px;
+    margin-left: 15px;
+}
+.comppic2{
+    height:200px;
+    width: 200px;
+    /* background-color: black; */
+    background-image: url("Biotechnology.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 5px;
+    margin-left: 15px;
+}
+.comppic3{
+    height:200px;
+    width: 200px;
+    /* background-color: black; */
+    background-image: url("MECHANIC.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 5px;
+    margin-left: 15px;
+}
+.content-1{
+    width: 80%;
+    
+
+}
+.content-1 p{
+    font-size: larger;
+}
+.contact{
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.contact:hover{
+    color: #043927;
+}
+.time-table{
+    
+    background: #c4e5da;
+    /* margin-left: 10px; */
+    margin-top: 1px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, Garuda, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* *font-size: small;
+    *font: x-small; */
+}
